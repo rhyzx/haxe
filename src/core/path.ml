@@ -321,7 +321,7 @@ let rec create_file bin ext acc = function
 	| [] -> Globals.die "" __LOC__
 	| d :: [] ->
 		let d = make_valid_filename d in
-		let maxlen = 200 - String.length ext in
+		let maxlen = 100 - String.length ext in
 		let d = if String.length d > maxlen then String.sub d 0 maxlen else d in
 		let ch = (if bin then open_out_bin else open_out) (String.concat "/" (List.rev (d :: acc)) ^ ext) in
 		ch
