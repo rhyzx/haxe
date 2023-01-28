@@ -1,4 +1,4 @@
-class Main1 {
+class Main {
 	static function main() {
 		var x:Dynamic;
 		if (Math.random() < 0.5) x=3;

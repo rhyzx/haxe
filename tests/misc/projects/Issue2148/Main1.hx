@@ -2,7 +2,7 @@ enum E {
     CTor(i:Int);
 }
 
-class Main {
+class Main1 {
     static public function main() {
         expectE(CTor(foo));
     }

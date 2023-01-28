@@ -1,7 +1,7 @@
 package unit.issues;
 
 class Issue3192 extends Test {
-	function test() {
+	function main() {
 		var x1 = {x:1, y:2};
 		var x2 = ({x:1, y:2}:{x:Int,y:Int});
 		var x3:{x:Int,y:Int} = {x:1, y:2};

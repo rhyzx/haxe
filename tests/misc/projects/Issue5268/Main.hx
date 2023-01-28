@@ -1,7 +1,7 @@
 import haxe.ds.Option;
 
 class Main {
-    public static function main() {
+    public static function test() {
         return switch outcome() {
             case Some(v):
                 var value = switch v {
@@ -16,4 +16,8 @@ class Main {
 
     static function outcome()
         return Some(1);
+
+    static function main() {
+        test();
+    }
 }

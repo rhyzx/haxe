@@ -1,4 +1,4 @@
-class Main {
+class Main1 {
 	static final Up = new Point(0, -1);
 	static final Down = new Point(0, 1);
 

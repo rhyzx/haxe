@@ -1,3 +1,5 @@
-enum E {
+enum OnEnumCtor {
 	C<T, T>();
 }
+
+function main() {}

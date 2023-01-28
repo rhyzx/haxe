@@ -4,7 +4,7 @@ enum E {
 	A(v:C);
 }
 
-class Main {
+class Main2 {
 	static final ident:C = null;
 
 	static function f(e:E):Int {

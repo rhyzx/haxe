@@ -2,7 +2,7 @@ enum MyEnum {
     A(a:Int);
 }
 
-class Test
+class Main
 {
     public static function main()
     {

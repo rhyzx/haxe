@@ -1,4 +1,4 @@
-class Test {
+class Main {
     static function main() {
         var struct:Struct = {url: 'www.example.com', method: 'GET'};
         var promise:Generic<Struct> = new Generic({url: struct, method: 'GET'});

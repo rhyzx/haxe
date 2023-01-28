@@ -2,7 +2,7 @@ abstract Under<T>(T) {
 	@:from public static function from<T>(v) return (v:Under<T>);
 }
 
-class Main {
+class Main2 {
 	static function main() {
 		var a1:Under<{}> = {};
 	}

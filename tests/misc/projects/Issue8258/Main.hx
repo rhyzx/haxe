@@ -3,3 +3,5 @@ enum abstract Foobar(String) {
 	var B = "y";
 	var A = "z";
 }
+
+function main() {}

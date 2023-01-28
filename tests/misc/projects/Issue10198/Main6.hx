@@ -2,7 +2,7 @@ class Main6 {
 	static function fn2<T, R:T>(r:R, fn:()->T):T
 		return null;
 
-	static function test() {
+	static function main() {
 		var a:Parent = fn2((null:Child), () -> new GrandParent());
 	}
 

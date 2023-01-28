@@ -6,7 +6,7 @@ enum Fmt<A,B> {
 	Opt<C>(opt:FmtOption<C>):Fmt<A,C>;
 }
 
-class Main {
+class Main1 {
 	static public function main() {
 	}
 

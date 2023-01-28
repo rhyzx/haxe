@@ -7,7 +7,7 @@ enum abstract ScreenRatio(Int) {
 	var ZZB;
 }
 
-class Main {
+class Main1 {
 	static final AAF = 0;
 	static final ZZF = 0;
 	static function main() {

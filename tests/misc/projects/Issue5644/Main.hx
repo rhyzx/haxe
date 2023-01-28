@@ -1,6 +1,6 @@
 class Main {
   static function main() {
-    return Gen.gen(Main, User);
+    Gen.gen(Main, User);
   }
 }
 

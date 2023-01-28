@@ -14,7 +14,7 @@ abstract A(Int) {
     }
 }
 
-class Main {
+class Main1 {
 	static function main() {
 
 	}

@@ -1,4 +1,4 @@
-class Main extends Parent {
+class NativeMeta extends Parent {
 	static function main() {}
 
 	@:native('childNative')

@@ -1,4 +1,4 @@
-class Main {
+class Main1 {
     public static function main() {
 		test("10");
 		test(10);
